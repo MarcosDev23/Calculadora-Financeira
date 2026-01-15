@@ -36,7 +36,6 @@ Este projeto foi construído para consolidar conhecimentos em desenvolvimento **
 
 ## 📁 Estrutura do Projeto
 
-```text
 Calculadora-Financeira/
 ├── app.py                # Servidor Flask e rotas da API
 ├── criar_banco.py        # Script de inicialização do Banco de Dados SQLite
@@ -55,7 +54,7 @@ Calculadora-Financeira/
 ## ⚙️ Como Executar o Projeto Localmente
 
 ### 1. Clonar o repositório
-```bash
+
 git clone [https://github.com/MarcosDev23/Calculadora-Financeira.git]
 cd Calculadora-Financeira
 
