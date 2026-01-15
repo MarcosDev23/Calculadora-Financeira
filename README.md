@@ -1,89 +1,62 @@
-💰 Calculadora Financeira
+# 💰 Calculadora Financeira
 
-Uma aplicação web moderna para controle financeiro pessoal, desenvolvida com foco em organização, clareza visual e experiência do usuário. O sistema permite gerenciar o fluxo de caixa através de uma interface intuitiva com dashboard em tempo real.
-🎯 Objetivo do Projeto
+Uma aplicação web moderna para **controle financeiro pessoal**, desenvolvida com foco em organização, clareza visual e experiência do usuário. O sistema permite gerenciar o fluxo de caixa através de uma interface intuitiva com dashboard em tempo real.
 
-Este projeto foi construído para consolidar conhecimentos em desenvolvimento Full Stack, aplicando regras de negócio reais em um ambiente simulado de gestão financeira.
+---
 
-    Prática Full Stack: Integração entre Python (Back-end) e JavaScript (Front-end).
+## 🎯 Objetivo do Projeto
 
-    Portfólio: Criar uma ferramenta funcional e visualmente polida.
+Este projeto foi construído para consolidar conhecimentos em desenvolvimento **Full Stack**, aplicando regras de negócio reais em um ambiente simulado de gestão financeira.
 
-    UX/UI: Implementação de Dark Mode e animações para melhor legibilidade.
+* **Prática Full Stack:** Integração entre Python (Back-end) e JavaScript (Front-end).
+* **Portfólio:** Criar uma ferramenta funcional e visualmente polida para demonstração técnica.
+* **UX/UI:** Implementação de Dark Mode e animações para melhor legibilidade e modernidade.
 
-🚀 Funcionalidades
+---
 
-    Gestão de Lançamentos: Cadastro de ganhos e despesas com descrição e valor.
+## 🚀 Funcionalidades
 
-    Cálculo Automático: Atualização instantânea de ganhos totais, despesas e saldo líquido.
+* ✅ **Gestão de Lançamentos:** Cadastro de ganhos e despesas com descrição e valor.
+* ✅ **Cálculo Automático:** Atualização instantânea de ganhos totais, despesas e saldo líquido.
+* ✅ **Dashboard Interativo:** Visualização de dados através de gráficos dinâmicos alimentados pela biblioteca **Chart.js**.
+* ✅ **Extrato Detalhado:** Listagem de transações com opções para **Editar** ou **Excluir**.
+* ✅ **Interface Premium:** Design em **Dark Mode** com layout responsivo e feedbacks visuais coloridos para saldos.
 
-    Dashboard Interativo: Visualização de dados através de gráficos dinâmicos alimentados pela biblioteca Chart.js.
+---
 
-    Extrato Detalhado: Listagem de transações com opções para Editar ou Excluir.
+## 🛠️ Tecnologias Utilizadas
 
-    Interface Premium: Design em Dark Mode com layout responsivo e feedbacks visuais coloridos para saldos.
+| Camada | Tecnologia |
+| :--- | :--- |
+| **Backend** | Python, Flask, SQLite |
+| **Frontend** | HTML5, CSS3, JavaScript (ES6+), Chart.js |
+| **Ferramentas** | Git, GitHub, Virtualenv (venv) |
 
+---
 
-    Camada	Tecnologia
-    Backend	Python, Flask, SQLite
-    Frontend	HTML5, CSS3, JavaScript (ES6+), Chart.js
-    Ferramentas	Git, GitHub, Virtualenv
+## 📁 Estrutura do Projeto
 
-
-
-Este é um modelo de README.md otimizado, utilizando as informações que você forneceu. Ele foi estruturado para ser visualmente atraente e profissional, ideal para o seu portfólio no GitHub.
-💰 Calculadora Financeira
-
-Uma aplicação web moderna para controle financeiro pessoal, desenvolvida com foco em organização, clareza visual e experiência do usuário. O sistema permite gerenciar o fluxo de caixa através de uma interface intuitiva com dashboard em tempo real.
-🎯 Objetivo do Projeto
-
-Este projeto foi construído para consolidar conhecimentos em desenvolvimento Full Stack, aplicando regras de negócio reais em um ambiente simulado de gestão financeira.
-
-    Prática Full Stack: Integração entre Python (Back-end) e JavaScript (Front-end).
-
-    Portfólio: Criar uma ferramenta funcional e visualmente polida.
-
-    UX/UI: Implementação de Dark Mode e animações para melhor legibilidade.
-
-🚀 Funcionalidades
-
-    Gestão de Lançamentos: Cadastro de ganhos e despesas com descrição e valor.
-
-    Cálculo Automático: Atualização instantânea de ganhos totais, despesas e saldo líquido.
-
-    Dashboard Interativo: Visualização de dados através de gráficos dinâmicos alimentados pela biblioteca Chart.js.
-
-    Extrato Detalhado: Listagem de transações com opções para Editar ou Excluir.
-
-    Interface Premium: Design em Dark Mode com layout responsivo e feedbacks visuais coloridos para saldos.
-
-🛠️ Tecnologias Utilizadas
-Camada	Tecnologia
-Backend	Python, Flask, SQLite
-Frontend	HTML5, CSS3, JavaScript (ES6+), Chart.js
-Ferramentas	Git, GitHub, Virtualenv
-
-
-📁 Estrutura do Projeto
+```text
 Calculadora-Financeira/
-├── app.py                # Servidor Flask e rotas
-├── criar_banco.py        # Script de inicialização do SQLite
-├── requirements.txt      # Dependências do projeto
+├── app.py                # Servidor Flask e rotas da API
+├── criar_banco.py        # Script de inicialização do Banco de Dados SQLite
+├── requirements.txt      # Dependências do projeto (Flask, etc)
 ├── static/
 │   ├── css/
-│   │   └── style.css     # Estilização e Dark Mode
+│   │   └── style.css     # Estilização personalizada e Dark Mode
 │   └── js/
-│       └── script.js    # Lógica do front-end e Gráficos
+│       └── script.js     # Lógica do front-end e integração com Chart.js
 └── templates/
-    └── index.html        # Estrutura principal
+    └── index.html        # Estrutura HTML principal
 
 
-⚙️ Como Executar o Projeto Localmente
 
 
-1. Clonar o repositório
+## ⚙️ Como Executar o Projeto Localmente
 
-git clone https://github.com/MarcosDev23/Calculadora-Financeira.git
+### 1. Clonar o repositório
+```bash
+git clone [https://github.com/MarcosDev23/Calculadora-Financeira.git]
 cd Calculadora-Financeira
 
 2. Configurar o Ambiente Virtual
@@ -99,7 +72,6 @@ No Linux / macOS:
 python3 -m venv venv
 source venv/bin/activate
 
-
 3. Instalar Dependências e Iniciar
 
 pip install -r requirements.txt
@@ -109,108 +81,30 @@ python app.py
 
 Acesse em seu navegador: http://127.0.0.1:5000
 
-
-Este é um modelo de README.md otimizado, utilizando as informações que você forneceu. Ele foi estruturado para ser visualmente atraente e profissional, ideal para o seu portfólio no GitHub.
-💰 Calculadora Financeira
-
-Uma aplicação web moderna para controle financeiro pessoal, desenvolvida com foco em organização, clareza visual e experiência do usuário. O sistema permite gerenciar o fluxo de caixa através de uma interface intuitiva com dashboard em tempo real.
-🎯 Objetivo do Projeto
-
-Este projeto foi construído para consolidar conhecimentos em desenvolvimento Full Stack, aplicando regras de negócio reais em um ambiente simulado de gestão financeira.
-
-    Prática Full Stack: Integração entre Python (Back-end) e JavaScript (Front-end).
-
-    Portfólio: Criar uma ferramenta funcional e visualmente polida.
-
-    UX/UI: Implementação de Dark Mode e animações para melhor legibilidade.
-
-🚀 Funcionalidades
-
-    Gestão de Lançamentos: Cadastro de ganhos e despesas com descrição e valor.
-
-    Cálculo Automático: Atualização instantânea de ganhos totais, despesas e saldo líquido.
-
-    Dashboard Interativo: Visualização de dados através de gráficos dinâmicos alimentados pela biblioteca Chart.js.
-
-    Extrato Detalhado: Listagem de transações com opções para Editar ou Excluir.
-
-    Interface Premium: Design em Dark Mode com layout responsivo e feedbacks visuais coloridos para saldos.
-
-🛠️ Tecnologias Utilizadas
-Camada	Tecnologia
-Backend	Python, Flask, SQLite
-Frontend	HTML5, CSS3, JavaScript (ES6+), Chart.js
-Ferramentas	Git, GitHub, Virtualenv
-📁 Estrutura do Projeto
-Plaintext
-
-Calculadora-Financeira/
-├── app.py                # Servidor Flask e rotas
-├── criar_banco.py        # Script de inicialização do SQLite
-├── requirements.txt      # Dependências do projeto
-├── static/
-│   ├── css/
-│   │   └── style.css     # Estilização e Dark Mode
-│   └── js/
-│       └── script.js    # Lógica do front-end e Gráficos
-└── templates/
-    └── index.html        # Estrutura principal
-
-⚙️ Como Executar o Projeto Localmente
-1. Clonar o repositório
-Bash
-
-git clone https://github.com/MarcosDev23/Calculadora-Financeira.git
-cd Calculadora-Financeira
-
-2. Configurar o Ambiente Virtual
-
-No Windows:
-Bash
-
-python -m venv venv
-venv\Scripts\activate
-
-No Linux / macOS:
-Bash
-
-python3 -m venv venv
-source venv/bin/activate
-
-3. Instalar Dependências e Iniciar
-Bash
-
-pip install -r requirements.txt
-python criar_banco.py
-python app.py
-
-Acesse em seu navegador: http://127.0.0.1:5000
 🧠 Regras de Negócio Aplicadas
 
-    Fluxo de Caixa: Ganhos incrementam o saldo; despesas realizam a subtração.
+    Fluxo de Caixa: Ganhos somam ao saldo; despesas realizam a subtração.
 
     Feedback Visual:
 
-        Saldo Positivo 🟢
+        Saldo Positivo recebe destaque na cor verde 🟢
 
-        Saldo Negativo 🔴
+        Saldo Negativo recebe destaque na cor vermelha 🔴
 
     Formatação: Todos os valores são tratados e exibidos no padrão de moeda Brasileira (R$).
-
-Desenvolvido por Marcos 
 
 
 
 📈 Possíveis Melhorias Futuras
 
-🔐 Autenticação de usuários
+    🔐 Autenticação: Sistema de login para múltiplos usuários.
 
-📅 Filtro por período (mensal/anual)
+    📅 Filtros: Busca de transações por período (mensal/anual).
 
-📄 Exportação de relatórios (PDF)
+    📄 Relatórios: Exportação de dados para PDF ou Excel.
 
-☁️ Deploy em nuvem
+    ☁️ Deploy: Publicação em ambiente de produção (Heroku/Render).
 
-📊 Gráficos adicionais
+    📊 Gráficos: Novos tipos de visualização (Pizza, Barras acumuladas).
 
-📱 Melhorias para mobile
+Desenvolvido por Marcos
